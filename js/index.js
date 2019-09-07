@@ -1,6 +1,7 @@
 function resizeButtonPeople(){
+  let width = 0;
   let buttons = document.getElementsByClassName('button-people');
-
+ 
   for ( let button of buttons ){
     button.style.with = "auto";
   }
